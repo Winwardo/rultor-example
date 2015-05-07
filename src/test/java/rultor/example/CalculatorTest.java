@@ -17,4 +17,10 @@ public class CalculatorTest {
 	Calculator calculator = new Calculator();
 	assertEquals(12000, calculator.add(5000, 7000));
     }
+
+    @Test
+    public void CalculatorMultiplySimple() {
+	Calculator calculator = new Calculator();
+	assertEquals(56, calculator.multiply(7, 8));
+    }
 }
