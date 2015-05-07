@@ -27,7 +27,7 @@ as a new comment, and that's it: you're done!
 ## Examples
 
 Look at https://github.com/Winwardo/rultor-example/pull/5 to see a typical usage of Rultor.
-Notice how, since we said "Closes #4" in the PR description, issue #4 was automatically closed after merge. (This is actually a [feature of GitHub](https://help.github.com/articles/closing-issues-via-commit-messages/), not Rultor!)
+Notice how, since we said "Closes #4" in the PR description, [issue #4 was automatically closed](https://github.com/Winwardo/rultor-example/issues/4) after merge. (This is actually a [feature of GitHub](https://help.github.com/articles/closing-issues-via-commit-messages/), not Rultor!)
 
 In https://github.com/Winwardo/rultor-example/pull/3, see how our original commit actually broke a test.
 Travis wouldn't have caught this until afterwards, but here, Rultor has stopped the faulty code ever reaching `master` until it was proven fixed.
